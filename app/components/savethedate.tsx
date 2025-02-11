@@ -9,9 +9,8 @@ const SaveTheDates: React.FC = () => {
           <div className="text-[130px] font-display md:hidden bg-[#fbf9f6] pb-4">
             <Image src={"/g.png"} alt="" width={480} height={320} />
             <p className="text-2xl font-display p-8 text-pink-900 font-bold">
-              With joyful hearts, we invite you to celebrate the union of
-              [Bride's Name] and [Groom's Name] as they embark on their journey
-              together.
+              With joyful hearts, we invite you to celebrate the union of Gauri
+              and Akshay as they embark on their journey together.
             </p>
             <p className="text-lg font-bold">
               "A celebration of love and commitment"
