@@ -11,6 +11,7 @@ import {
 } from "@headlessui/react";
 import { CheckIcon, ChevronDownIcon } from "lucide-react";
 import clsx from "clsx";
+import { Button } from "@/components/ui/button";
 
 const RoomCheck: React.FC = () => {
   const [data, setData] = React.useState<any[]>([]);
@@ -109,6 +110,16 @@ const RoomCheck: React.FC = () => {
               <p className="text-sm font-main">Room Number</p>
               <p className="text-4xl font-display">
                 {currentPerson["Room Number"]}
+              </p>
+            </div>
+            <div className="mt-6 items-center gap-4">
+              <p className="text-sm font-main">Location</p>
+              <p className="text-4xl font-display">
+                <Button className=" bg-pink-900 text-white font-display hover:bg-pink-200 hover:text-gray-800">
+                  <a href={currentPerson["map_url"]} target="_blank">
+                    Navigate to the hotel
+                  </a>
+                </Button>
               </p>
             </div>
           </div>
