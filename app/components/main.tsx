@@ -40,7 +40,7 @@ const MainContent: React.FC = () => {
                   src={`https://ucarecdn.com/${_.uuid}/`}
                   alt="profile"
                   key={_}
-                  className=" object-contain "
+                  className="object-contain "
                   fill
                   loader={uploadcareLoader}
                 />
