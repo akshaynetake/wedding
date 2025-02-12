@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 const SaveTheDates: React.FC = () => {
   return (
@@ -15,6 +16,9 @@ const SaveTheDates: React.FC = () => {
             <p className="text-lg font-bold">
               "A celebration of love and commitment"
             </p>
+            <Button className=" bg-pink-900 text-white font-display hover:bg-pink-200 hover:text-gray-800">
+              <a href="#room">Find room number</a>
+            </Button>
           </div>
           <div className="text-[130px] font-display hidden md:block">
             <p className="bg-gradient-to-r from-gray-800 to-gray-100 bg-clip-text text-transparent">

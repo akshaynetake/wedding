@@ -3,6 +3,7 @@ import SaveTheDates from "./components/savethedate";
 import MainContent from "./components/main";
 import Footer from "./components/footer";
 import RoomCheck from "./components/roomcheck";
+import { Map } from "./components/map";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <SaveTheDates />
       </div>
       <MainContent />
+      <Map />
       <RoomCheck />
       <Footer />
     </div>

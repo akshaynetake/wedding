@@ -40,7 +40,10 @@ const RoomCheck: React.FC = () => {
   }, [selected, data]);
 
   return (
-    <section className="flex items-center justify-center mt-20 flex-col">
+    <section
+      className="flex items-center justify-center mt-20 flex-col"
+      id="room"
+    >
       <p className="text-2xl font-display font-bold text-pink-900">
         See where are you are staying
       </p>
