@@ -23,21 +23,21 @@ const SaveTheDates: React.FC = () => {
             </p>
           </div>
           <div className="h-full grid">
-            <div className="rounded-t-full rounded-b-full bg-[url(/pics/IMG_9612.JPG)] bg-cover min-h-[500px] m-8 md:bg-[-100px]" />
+            <div className="rounded-t-full rounded-b-full bg-[url(https://ucarecdn.com/f4ce09ef-7397-4f9c-8927-0c1896fdcf7c/-/preview/1000x666/)] bg-cover min-h-[500px] m-8 md:bg-[-100px]" />
             <div className="font-display mt-[36px]">
               <p className="text-lg font-main text-gray-400">15 FEB 2025 6PM</p>
               <p className="text-4xl">HALDI </p>
             </div>
           </div>
           <div className="h-full grid">
-            <div className="rounded-t-full rounded-b-full bg-[url(/pics/IMG_9614.JPG)] bg-cover min-h-[500px] m-8 bg-[-190px] md:bg-[-270px]" />
+            <div className="rounded-t-full rounded-b-full bg-[url(https://ucarecdn.com/adb7f48a-17ba-420c-b7d8-56cac638f620/-/preview/1000x666/)] bg-cover min-h-[500px] m-8 bg-[-190px] md:bg-[-270px]" />
             <div className="font-display mt-[36px]">
               <p className="text-lg font-main text-gray-400">15 FEB 2025 8PM</p>
               <p className="text-4xl">SANGEET </p>
             </div>
           </div>
           <div className="h-full grid">
-            <div className="rounded-t-full rounded-b-full bg-[url(/pics/IMG_9602.JPG)] bg-cover min-h-[500px] m-8 md:bg-[-100px] bg-[-40px]" />
+            <div className="rounded-t-full rounded-b-full bg-[url(https://ucarecdn.com/efa47990-1499-4f34-9e60-513c35b3928f/-/preview/714x1000/)] bg-cover min-h-[500px] m-8 md:bg-[-100px] bg-[-40px]" />
             <div className="font-display mt-[36px]">
               <p className="text-lg font-main text-gray-400">
                 16 FEB 2025 5.30PM
