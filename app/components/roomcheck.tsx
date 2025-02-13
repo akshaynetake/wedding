@@ -24,7 +24,6 @@ const RoomCheck: React.FC = () => {
       const text = await res.text();
       const data: any = Papa.parse(text, { header: true });
       setData(data.data);
-      setSelected(data.data[0]["Person Name"]);
     };
     fetchFiles();
   }, []);
@@ -60,9 +59,7 @@ const RoomCheck: React.FC = () => {
                 "w-full rounded-lg border-none py-1.5 pr-8 pl-3 text-xl font-main",
                 "focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25"
               )}
-              displayValue={(person: any) => {
-                return person || "";
-              }}
+              placeholder="Search for your name"
               onChange={(event) => setQuery(event.target.value)}
             />
             <ComboboxButton className="group absolute inset-y-0 right-0 px-2.5">
